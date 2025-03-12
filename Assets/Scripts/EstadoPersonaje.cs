@@ -1,7 +1,7 @@
 using UnityEngine;
 
 /**
-Esta clase es para saber si el personaje está en el piso o no. 
+Autor: Emilio de Leon Vives
 */
 
 public class EstadoPersonaje : MonoBehaviour

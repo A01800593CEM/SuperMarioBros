@@ -1,9 +1,7 @@
 using UnityEngine;
 
 /**
-Modifica los parámetros de la animación del personaje.
 Autor: Emilio de Leon Vives
-
 */
 
 public class CambiarAnimacion : MonoBehaviour
