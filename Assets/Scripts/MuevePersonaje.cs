@@ -33,6 +33,14 @@ public class MuevePersonaje : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         // Inicializar estadoPersonaje
         estadoPersonaje = GetComponent<EstadoPersonaje>();
+        // Suscribirse al evento OnTocaSuelo
+        estadoPersonaje.OnTocaSuelo += ResetSalto;
+    }
+
+    // Método para resetear el estado de salto
+    private void ResetSalto()
+    {
+        saltando = false;
     }
 
     // Update is called once per frame (60FPS)
